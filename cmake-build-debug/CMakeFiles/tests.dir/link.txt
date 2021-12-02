@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor -g CMakeFiles/tests.dir/tests/test.cpp.o -o tests  liblab-01-parserd.a /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/lib/libgtest_maind.a /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/lib/libgtestd.a -pthread 

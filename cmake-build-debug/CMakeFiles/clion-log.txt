@@ -1,0 +1,10 @@
+/home/anton/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/anton/.hunter
+-- [hunter] [ Hunter-ID: 18e57a4 | Toolchain-ID: 252be92 | Config-ID: 5c48e6d ]
+-- [hunter] GTEST_ROOT: /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install (ver.: 1.8.1)
+-- [hunter] NLOHMANN_JSON_ROOT: /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install (ver.: 3.7.0)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug
