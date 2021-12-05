@@ -20,11 +20,9 @@ HunterGate(
   SHA1 "18e57a43efc435f2e1dae1291e82e42afbf940be"
 )
 
-# TODO: rename project and delete this comment
 project(lab-01-parser)
 
 add_library(${PROJECT_NAME} STATIC
-        # enum your files and delete this comment
         ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
         demo/main.cpp
         sources/student.cpp include/student.hpp sources/print.cpp include/print.hpp)
@@ -54,7 +52,6 @@ target_link_libraries(demo ${PROJECT_NAME})
 
 if(BUILD_TESTS)
   add_executable(tests
-    # TODO: enum your files and delete this comment
     ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
   )
   target_link_libraries(tests ${PROJECT_NAME} GTest::gtest_main)
