@@ -1,5 +1,5 @@
 // Copyright 2021 Galaktionov Andrey <galaktionovaa@student.bmstu.ru>
-#include "print.h"
+#include "print.hpp"
 
 using json = nlohmann::json;
 

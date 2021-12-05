@@ -27,7 +27,7 @@ add_library(${PROJECT_NAME} STATIC
         # enum your files and delete this comment
         ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
         sources/main.cpp
-        sources/student.cpp include/student.hpp sources/print.cpp include/print.h)
+        sources/student.cpp include/student.hpp sources/print.cpp include/print.hpp)
 
 string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
 string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")

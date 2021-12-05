@@ -1,11 +1,12 @@
 // Copyright 2021 Galaktionov Andrey <galaktionovaa@student.bmstu.ru>
 
-#include "print.h"
 #include <gtest/gtest.h>
+
+#include "print.hpp"
 
 using json = nlohmann::json;
 
-std::string test(std::string &jsonPath) {
+std::string test(std::string& jsonPath) {
   std::ifstream file{jsonPath};
   if (!file) {
     throw std::runtime_error{"unable to open json: " + jsonPath};
@@ -27,9 +28,9 @@ std::string test(std::string &jsonPath) {
 }
 
 TEST(first_lab, table_test) {
-    EXPECT_TRUE(true);
-    std::string true_res =
-        R"(|      name     |  group |    avg   |   debt  |
+  EXPECT_TRUE(true);
+  std::string true_res =
+      R"(|      name     |  group |    avg   |   debt  |
 |---------------|--------|----------|---------|
 |  Ivanov Petr  |    1   |   4.25   |   null  |
 |---------------|--------|----------|---------|
@@ -37,12 +38,11 @@ TEST(first_lab, table_test) {
 |---------------|--------|----------|---------|
 | Pertov Nikita | IU8-31 | 3.330000 | 3 items |
 |---------------|--------|----------|---------|)";
-    std::string jsonPath = "../json_files/students.json";
-    std::string out = test(jsonPath);
-    EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
+  std::string jsonPath = "../json_files/students.json";
+  std::string out = test(jsonPath);
+  EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
 
-
-    true_res = R"(|        name        |   group   |    avg   |     debt    |
+  true_res = R"(|        name        |   group   |    avg   |     debt    |
 |--------------------|-----------|----------|-------------|
 | Shalagin Enakentiy | 100000001 | 4.250000 |   3 items   |
 |--------------------|-----------|----------|-------------|
@@ -50,7 +50,7 @@ TEST(first_lab, table_test) {
 |--------------------|-----------|----------|-------------|
 |    Petrova Dasha   |   IU8-38  | 4.500000 |   2 items   |
 |--------------------|-----------|----------|-------------|)";
-    jsonPath = "../json_files/students2.json";
-    out = test(jsonPath);
-    EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
+  jsonPath = "../json_files/students2.json";
+  out = test(jsonPath);
+  EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
 }

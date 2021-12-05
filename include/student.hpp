@@ -3,10 +3,10 @@
 #ifndef LAB_01_PARSER_STUDENT_HPP
 #define LAB_01_PARSER_STUDENT_HPP
 
-#include <iostream>
-#include <nlohmann/json.hpp>
 #include <any>
 #include <fstream>
+#include <iostream>
+#include <nlohmann/json.hpp>
 
 struct Student {
   std::string name;
