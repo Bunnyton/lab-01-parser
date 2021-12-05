@@ -1,11 +1,13 @@
 // Copyright 2021 Galaktionov Andrey <galaktionovaa@student.bmstu.ru>
 
-#ifndef LAB_01_PARSER_STUDENT_HPP
-#define LAB_01_PARSER_STUDENT_HPP
+#ifndef INCLUDE_STUDENT_HPP_
+#define INCLUDE_STUDENT_HPP_
 
 #include <any>
 #include <fstream>
 #include <iostream>
+#include <string>
+#include <vector>
 #include <nlohmann/json.hpp>
 
 struct Student {
@@ -17,4 +19,4 @@ struct Student {
 
 void from_json(const nlohmann::json& j, Student& s);
 
-#endif  // LAB_01_PARSER_STUDENT_HPP
+#endif  // INCLUDE_STUDENT_HPP_

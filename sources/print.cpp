@@ -1,4 +1,5 @@
 // Copyright 2021 Galaktionov Andrey <galaktionovaa@student.bmstu.ru>
+
 #include "print.hpp"
 
 using namespace std;
@@ -11,9 +12,9 @@ void print(std::ostream& os, std::string* str, int maxlength) {
     return;
   }
 
-  unsigned long space_front_count =
+  unsigned space_front_count =
       (maxlength - str->length()) / 2 + (maxlength - str->length()) % 2 + 1;
-  unsigned long space_back_count = (maxlength - str->length()) / 2 + 1;
+  unsigned space_back_count = (maxlength - str->length()) / 2 + 1;
 
   for (unsigned i = 0; i < space_front_count; ++i) os << ' ';
   os << str;
@@ -71,7 +72,7 @@ void print(const Student& student, std::ostream& os, int* maxlength) {
 }
 
 //--------------------------------GET TABLE SIZE--------------------------------
-void length_compare(std::string* str, int* length) {
+static void length_compare(std::string* str, int* length) {
   if ((int)str->length() > *length) *length = (int)str->length();
 }
 
