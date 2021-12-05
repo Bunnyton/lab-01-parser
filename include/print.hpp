@@ -1,7 +1,12 @@
+// Copyright 2021 Galaktionov Andrey <galaktionovaa@student.bmstu.ru>
+
 #ifndef INCLUDE_PRINT_HPP_
 #define INCLUDE_PRINT_HPP_
 
 #define STUD_PARAM_LENGTH 4
+
+#include <vector>
+#include <string>
 
 #include "student.hpp"
 

@@ -71,7 +71,8 @@ void print(const Student& student, std::ostream& os, int* maxlength) {
 
 //--------------------------------GET TABLE SIZE--------------------------------
 static void length_compare(std::string* str, int& length) {
-  if (static_cast<int>(str->length()) > length) length = (int)str->length();
+  if (static_cast<int>(str->length()) > length)
+    length = static_cast<int>(str->length());
 }
 
 int* get_column_size(const std::vector<Student>& students) {
