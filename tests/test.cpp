@@ -28,7 +28,6 @@ std::string test(std::string& jsonPath) {
 }
 
 TEST(first_lab, table_test) {
-  EXPECT_TRUE(true);
   std::string true_res =
       R"(|      name     |  group |    avg   |   debt  |
 |---------------|--------|----------|---------|

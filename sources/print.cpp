@@ -15,7 +15,7 @@ void print(std::ostream& os, std::string* str, int maxlength) {
   unsigned space_back_count = (maxlength - str->length()) / 2 + 1;
 
   for (unsigned i = 0; i < space_front_count; ++i) os << ' ';
-  os << str;
+  os << *str;
   for (unsigned i = 0; i < space_back_count; ++i) os << ' ';
 }
 

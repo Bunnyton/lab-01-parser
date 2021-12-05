@@ -6,20 +6,26 @@
 
 #IncludeRegexTransform: 
 
-../include/print.h
+../include/print.hpp
+vector
+-
+string
+-
 student.hpp
 ../include/student.hpp
-iostream
--
 
 ../include/student.hpp
-iostream
--
-nlohmann/json.hpp
--
 any
 -
 fstream
+-
+iostream
+-
+string
+-
+vector
+-
+nlohmann/json.hpp
 -
 
 /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/include/nlohmann/json.hpp
@@ -357,6 +363,6 @@ type_traits
 -
 
 /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/main.cpp
-print.h
-/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.h
+print.hpp
+/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.hpp
 
