@@ -230,32 +230,32 @@ lab-01-parser/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab-01-parser.dir/build.make CMakeFiles/lab-01-parser.dir/build
 .PHONY : lab-01-parser/fast
 
-sources/main.o: sources/main.cpp.o
-.PHONY : sources/main.o
+demo/main.o: demo/main.cpp.o
+.PHONY : demo/main.o
 
 # target to build an object file
-sources/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/sources/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab-01-parser.dir/build.make CMakeFiles/lab-01-parser.dir/sources/main.cpp.o
-.PHONY : sources/main.cpp.o
+demo/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/demo/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab-01-parser.dir/build.make CMakeFiles/lab-01-parser.dir/demo/main.cpp.o
+.PHONY : demo/main.cpp.o
 
-sources/main.i: sources/main.cpp.i
-.PHONY : sources/main.i
+demo/main.i: demo/main.cpp.i
+.PHONY : demo/main.i
 
 # target to preprocess a source file
-sources/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/sources/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab-01-parser.dir/build.make CMakeFiles/lab-01-parser.dir/sources/main.cpp.i
-.PHONY : sources/main.cpp.i
+demo/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/demo/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab-01-parser.dir/build.make CMakeFiles/lab-01-parser.dir/demo/main.cpp.i
+.PHONY : demo/main.cpp.i
 
-sources/main.s: sources/main.cpp.s
-.PHONY : sources/main.s
+demo/main.s: demo/main.cpp.s
+.PHONY : demo/main.s
 
 # target to generate assembly for a file
-sources/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/sources/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab-01-parser.dir/build.make CMakeFiles/lab-01-parser.dir/sources/main.cpp.s
-.PHONY : sources/main.cpp.s
+demo/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/demo/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab-01-parser.dir/build.make CMakeFiles/lab-01-parser.dir/demo/main.cpp.s
+.PHONY : demo/main.cpp.s
 
 sources/print.o: sources/print.cpp.o
 .PHONY : sources/print.o
@@ -350,9 +350,9 @@ help:
 	@echo "... demo"
 	@echo "... lab-01-parser"
 	@echo "... tests"
-	@echo "... sources/main.o"
-	@echo "... sources/main.i"
-	@echo "... sources/main.s"
+	@echo "... demo/main.o"
+	@echo "... demo/main.i"
+	@echo "... demo/main.s"
 	@echo "... sources/print.o"
 	@echo "... sources/print.i"
 	@echo "... sources/print.s"

@@ -26,7 +26,7 @@ project(lab-01-parser)
 add_library(${PROJECT_NAME} STATIC
         # enum your files and delete this comment
         ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
-        sources/main.cpp
+        demo/main.cpp
         sources/student.cpp include/student.hpp sources/print.cpp include/print.hpp)
 
 string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
@@ -42,7 +42,7 @@ target_link_libraries(lab-01-parser nlohmann_json::nlohmann_json)
 
 
 add_executable(demo
-        sources/main.cpp
+        demo/main.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC

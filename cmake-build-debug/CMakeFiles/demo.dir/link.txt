@@ -1,1 +1,1 @@
-/usr/bin/c++  -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor -g CMakeFiles/demo.dir/sources/main.cpp.o -o demo  liblab-01-parserd.a 
+/usr/bin/c++  -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor -g CMakeFiles/demo.dir/demo/main.cpp.o -o demo  liblab-01-parserd.a 

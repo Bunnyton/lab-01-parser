@@ -252,14 +252,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp">
+			<Option target="demo"/>
+			<Option target="lab-01-parser"/>
+		</Unit>
 		<Unit filename="/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/include/print.hpp">
 			<Option target="lab-01-parser"/>
 		</Unit>
 		<Unit filename="/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/include/student.hpp">
-			<Option target="lab-01-parser"/>
-		</Unit>
-		<Unit filename="/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/main.cpp">
-			<Option target="demo"/>
 			<Option target="lab-01-parser"/>
 		</Unit>
 		<Unit filename="/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp">

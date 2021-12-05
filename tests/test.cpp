@@ -36,7 +36,8 @@ TEST(first_lab, table_test) {
 |  Sidorov Ivan |   31   |     4    |   C++   |
 |---------------|--------|----------|---------|
 | Pertov Nikita | IU8-31 | 3.330000 | 3 items |
-|---------------|--------|----------|---------|)";
+|---------------|--------|----------|---------|
+)";
   std::string jsonPath = "../json_files/students.json";
   std::string out = test(jsonPath);
   EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
@@ -48,7 +49,8 @@ TEST(first_lab, table_test) {
 |   Konstantin Dark  |  Infinity |     5    | Manuscripts |
 |--------------------|-----------|----------|-------------|
 |    Petrova Dasha   |   IU8-38  | 4.500000 |   2 items   |
-|--------------------|-----------|----------|-------------|)";
+|--------------------|-----------|----------|-------------|
+)";
   jsonPath = "../json_files/students2.json";
   out = test(jsonPath);
   EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
