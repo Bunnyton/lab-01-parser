@@ -2,8 +2,6 @@
 
 #include "print.hpp"
 
-using namespace std;
-
 //-------------------------------BASE PRINT FUNCTIONS-------------------
 void print(std::ostream& os, std::string* str, int maxlength) {
   os << '|';
@@ -72,8 +70,8 @@ void print(const Student& student, std::ostream& os, int* maxlength) {
 }
 
 //--------------------------------GET TABLE SIZE--------------------------------
-static void length_compare(std::string* str, int* length) {
-  if ((int)str->length() > *length) *length = (int)str->length();
+static void length_compare(std::string* str, int& length) {
+  if (static_cast<int>(str->length()) > length) length = (int)str->length();
 }
 
 int* get_column_size(const std::vector<Student>& students) {
@@ -89,33 +87,33 @@ int* get_column_size(const std::vector<Student>& students) {
     int* maxlength_ptr = maxlength;
     for (const auto item : any) {
       if (item->type() == typeid(std::nullptr_t)) {
-        length_compare(new std::string("null"), maxlength_ptr);
+        length_compare(new std::string("null"), *maxlength_ptr);
       } else if (item->type() == typeid(std::string)) {
         length_compare(new std::string(std::any_cast<std::string>(*item)),
-                       maxlength_ptr);
+                       *maxlength_ptr);
       } else if (item->type() == typeid(std::size_t)) {
         length_compare(
             new std::string(std::to_string(std::any_cast<std::size_t>(*item))),
-            maxlength_ptr);
+            *maxlength_ptr);
       } else if (item->type() == typeid(double)) {
         length_compare(
             new std::string(std::to_string(std::any_cast<double>(*item))),
-            maxlength_ptr);
+            *maxlength_ptr);
       } else {
         length_compare(
             new std::string(
                 std::to_string(
                     std::any_cast<std::vector<std::string>>(item)->size()) +
                 (std::string) " items"),
-            maxlength_ptr);
+            *maxlength_ptr);
       }
       maxlength_ptr++;
     }
   }
-  length_compare(new std::string("name"), maxlength);
-  length_compare(new std::string("group"), maxlength + 1);
-  length_compare(new std::string("avg"), maxlength + 2);
-  length_compare(new std::string("debt"), maxlength + 3);
+  length_compare(new std::string("name"), *maxlength);
+  length_compare(new std::string("group"), *(maxlength + 1));
+  length_compare(new std::string("avg"), *(maxlength + 2));
+  length_compare(new std::string("debt"), *(maxlength + 3));
   return maxlength;
 }
 //-------------------------------PRINT FUNCTION--------------------------------

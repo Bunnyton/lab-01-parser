@@ -18,10 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f9bf4f7-7f09-4fc8-9e4e-83ae03a84485" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/include/print.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/print.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/student.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/student.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/print.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/print.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/student.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1638167769055" duration="1315000" />
       <workItem from="1638177720365" duration="4095000" />
       <workItem from="1638355892794" duration="3593000" />
-      <workItem from="1638687400861" duration="7732000" />
+      <workItem from="1638687400861" duration="8223000" />
     </task>
     <servers />
   </component>

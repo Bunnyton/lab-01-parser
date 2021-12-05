@@ -3,8 +3,6 @@
 
 #define STUD_PARAM_LENGTH 4
 
-#include <iostream>
-
 #include "student.hpp"
 
 //-----------------BASE PRINT FUNCTIONS-----------------------------------------
