@@ -1,10 +1,30 @@
-/home/anton/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser
+/home/anton/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- [hunter] Calculating Toolchain-SHA1
 -- [hunter] Calculating Config-SHA1
 -- [hunter] HUNTER_ROOT: /home/anton/.hunter
 -- [hunter] [ Hunter-ID: 18e57a4 | Toolchain-ID: 252be92 | Config-ID: 5c48e6d ]
 -- [hunter] GTEST_ROOT: /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install (ver.: 1.8.1)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
 -- [hunter] NLOHMANN_JSON_ROOT: /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install (ver.: 3.7.0)
+-- Found nlohmann_json: /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.7.0") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug
+-- Build files have been written to: /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/cmake-build-debug

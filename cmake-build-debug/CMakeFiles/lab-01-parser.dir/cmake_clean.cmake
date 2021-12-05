@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab-01-parser.dir/sources/print.cpp.o"
   "CMakeFiles/lab-01-parser.dir/sources/student.cpp.o"
   "CMakeFiles/lab-01-parser.dir/tests/test.cpp.o"
-  "liblab-01-parserd.a"
-  "liblab-01-parserd.pdb"
+  "liblab-01-parser.a"
+  "liblab-01-parser.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

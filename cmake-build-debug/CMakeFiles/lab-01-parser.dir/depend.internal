@@ -5,16 +5,16 @@ CMakeFiles/lab-01-parser.dir/demo/main.cpp.o
  ../include/print.hpp
  ../include/student.hpp
  /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/include/nlohmann/json.hpp
- /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp
+ /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/demo/main.cpp
 CMakeFiles/lab-01-parser.dir/sources/print.cpp.o
  ../include/print.hpp
  ../include/student.hpp
  /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/include/nlohmann/json.hpp
- /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp
+ /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/sources/print.cpp
 CMakeFiles/lab-01-parser.dir/sources/student.cpp.o
  ../include/student.hpp
  /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/include/nlohmann/json.hpp
- /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp
+ /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/sources/student.cpp
 CMakeFiles/lab-01-parser.dir/tests/test.cpp.o
  ../include/print.hpp
  ../include/student.hpp
@@ -41,4 +41,4 @@ CMakeFiles/lab-01-parser.dir/tests/test.cpp.o
  /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/include/gtest/internal/gtest-tuple.h
  /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/include/gtest/internal/gtest-type-util.h
  /home/anton/.hunter/_Base/18e57a4/252be92/5c48e6d/Install/include/nlohmann/json.hpp
- /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp
+ /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/tests/test.cpp

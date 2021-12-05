@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/demo/main.cpp.o"
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/print.cpp.o"
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/student.cpp.o"
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/tests/test.cpp.o"
+  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/demo/main.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/demo/main.cpp.o"
+  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/sources/print.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/print.cpp.o"
+  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/sources/student.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/student.cpp.o"
+  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/tests/test.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/tests/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

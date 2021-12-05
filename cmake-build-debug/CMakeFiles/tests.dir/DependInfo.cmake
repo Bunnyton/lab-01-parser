@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/tests.dir/tests/test.cpp.o"
+  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/tests/test.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/cmake-build-debug/CMakeFiles/tests.dir/tests/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/DependInfo.cmake"
+  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/folder/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
