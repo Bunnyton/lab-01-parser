@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="lab-01-parser" targetName="demo" />
+      <config projectName="lab-01-parser" targetName="lab-01-parser" />
+      <config projectName="lab-01-parser" targetName="tests" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -9,18 +13,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8333eac-3361-4eac-ad34-bcdcd4155aa2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/example.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/example.cpp" beforeDir="false" />
-    </list>
+    <list default="true" id="b8333eac-3361-4eac-ad34-bcdcd4155aa2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -39,6 +38,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="ctest.advertisement.all.test.configuration.is.created" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
@@ -90,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638715333746</updated>
-      <workItem from="1638715348027" duration="389000" />
+      <workItem from="1638715348027" duration="1242000" />
     </task>
     <servers />
   </component>
