@@ -6,7 +6,10 @@
 
 using json = nlohmann::json;
 
-std::string test(std::string& jsonPath) {
+const std::string &jsonPath1 = JFile1;
+const std::string &jsonPath2 = JFile2;
+
+std::string test(const std::string& jsonPath) {
   std::ifstream file{jsonPath};
   if (!file) {
     throw std::runtime_error{"unable to open json: " + jsonPath};
@@ -38,8 +41,7 @@ TEST(first_lab, table_test) {
 | Pertov Nikita | IU8-31 | 3.330000 | 3 items |
 |---------------|--------|----------|---------|
 )";
-  std::string jsonPath = "../json_files/students.json";
-  std::string out = test(jsonPath);
+  std::string out = test(jsonPath1);
   EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
 
   true_res = R"(|        name        |   group   |    avg   |     debt    |
@@ -51,7 +53,6 @@ TEST(first_lab, table_test) {
 |    Petrova Dasha   |   IU8-38  | 4.500000 |   2 items   |
 |--------------------|-----------|----------|-------------|
 )";
-  jsonPath = "../json_files/students2.json";
-  out = test(jsonPath);
+  out = test(jsonPath2);
   EXPECT_STRCASEEQ(true_res.c_str(), out.c_str());
 }

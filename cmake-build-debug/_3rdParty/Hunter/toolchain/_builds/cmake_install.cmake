@@ -1,4 +1,4 @@
-# Install script for directory: /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/_3rdParty/Hunter/toolchain
+# Install script for directory: /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/_3rdParty/Hunter/toolchain
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -20,7 +20,6 @@ HunterGate(
   SHA1 "18e57a43efc435f2e1dae1291e82e42afbf940be"
 )
 
-# TODO: rename project and delete this comment
 project(lab-01-parser)
 
 add_library(${PROJECT_NAME} STATIC
@@ -32,6 +31,8 @@ add_library(${PROJECT_NAME} STATIC
 string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
 string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
 string(APPEND CMAKE_CXX_FLAGS " -Wshadow -Wnon-virtual-dtor")
+add_compile_definitions(JFile1="${CMAKE_CURRENT_SOURCE_DIR}/json_files/students.json")
+add_compile_definitions(JFile2="${CMAKE_CURRENT_SOURCE_DIR}/json_files/students2.json")
 
 hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)

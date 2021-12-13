@@ -53,10 +53,10 @@ RM = /home/anton/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser
+CMAKE_SOURCE_DIR = /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug
+CMAKE_BINARY_DIR = /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab-01-parser.dir/depend.make
@@ -68,55 +68,55 @@ include CMakeFiles/lab-01-parser.dir/flags.make
 
 CMakeFiles/lab-01-parser.dir/tests/test.cpp.o: CMakeFiles/lab-01-parser.dir/flags.make
 CMakeFiles/lab-01-parser.dir/tests/test.cpp.o: ../tests/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab-01-parser.dir/tests/test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/tests/test.cpp.o -c /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab-01-parser.dir/tests/test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/tests/test.cpp.o -c /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp
 
 CMakeFiles/lab-01-parser.dir/tests/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-01-parser.dir/tests/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp > CMakeFiles/lab-01-parser.dir/tests/test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp > CMakeFiles/lab-01-parser.dir/tests/test.cpp.i
 
 CMakeFiles/lab-01-parser.dir/tests/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-01-parser.dir/tests/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp -o CMakeFiles/lab-01-parser.dir/tests/test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp -o CMakeFiles/lab-01-parser.dir/tests/test.cpp.s
 
 CMakeFiles/lab-01-parser.dir/demo/main.cpp.o: CMakeFiles/lab-01-parser.dir/flags.make
 CMakeFiles/lab-01-parser.dir/demo/main.cpp.o: ../demo/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab-01-parser.dir/demo/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/demo/main.cpp.o -c /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab-01-parser.dir/demo/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/demo/main.cpp.o -c /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp
 
 CMakeFiles/lab-01-parser.dir/demo/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-01-parser.dir/demo/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp > CMakeFiles/lab-01-parser.dir/demo/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp > CMakeFiles/lab-01-parser.dir/demo/main.cpp.i
 
 CMakeFiles/lab-01-parser.dir/demo/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-01-parser.dir/demo/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp -o CMakeFiles/lab-01-parser.dir/demo/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp -o CMakeFiles/lab-01-parser.dir/demo/main.cpp.s
 
 CMakeFiles/lab-01-parser.dir/sources/student.cpp.o: CMakeFiles/lab-01-parser.dir/flags.make
 CMakeFiles/lab-01-parser.dir/sources/student.cpp.o: ../sources/student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab-01-parser.dir/sources/student.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/sources/student.cpp.o -c /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab-01-parser.dir/sources/student.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/sources/student.cpp.o -c /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp
 
 CMakeFiles/lab-01-parser.dir/sources/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-01-parser.dir/sources/student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp > CMakeFiles/lab-01-parser.dir/sources/student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp > CMakeFiles/lab-01-parser.dir/sources/student.cpp.i
 
 CMakeFiles/lab-01-parser.dir/sources/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-01-parser.dir/sources/student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp -o CMakeFiles/lab-01-parser.dir/sources/student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp -o CMakeFiles/lab-01-parser.dir/sources/student.cpp.s
 
 CMakeFiles/lab-01-parser.dir/sources/print.cpp.o: CMakeFiles/lab-01-parser.dir/flags.make
 CMakeFiles/lab-01-parser.dir/sources/print.cpp.o: ../sources/print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab-01-parser.dir/sources/print.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/sources/print.cpp.o -c /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab-01-parser.dir/sources/print.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab-01-parser.dir/sources/print.cpp.o -c /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp
 
 CMakeFiles/lab-01-parser.dir/sources/print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-01-parser.dir/sources/print.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp > CMakeFiles/lab-01-parser.dir/sources/print.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp > CMakeFiles/lab-01-parser.dir/sources/print.cpp.i
 
 CMakeFiles/lab-01-parser.dir/sources/print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-01-parser.dir/sources/print.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp -o CMakeFiles/lab-01-parser.dir/sources/print.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp -o CMakeFiles/lab-01-parser.dir/sources/print.cpp.s
 
 # Object files for target lab-01-parser
 lab__01__parser_OBJECTS = \
@@ -134,7 +134,7 @@ liblab-01-parserd.a: CMakeFiles/lab-01-parser.dir/sources/student.cpp.o
 liblab-01-parserd.a: CMakeFiles/lab-01-parser.dir/sources/print.cpp.o
 liblab-01-parserd.a: CMakeFiles/lab-01-parser.dir/build.make
 liblab-01-parserd.a: CMakeFiles/lab-01-parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblab-01-parserd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblab-01-parserd.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lab-01-parser.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab-01-parser.dir/link.txt --verbose=$(VERBOSE)
 
@@ -147,6 +147,6 @@ CMakeFiles/lab-01-parser.dir/clean:
 .PHONY : CMakeFiles/lab-01-parser.dir/clean
 
 CMakeFiles/lab-01-parser.dir/depend:
-	cd /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug /home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug /home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab-01-parser.dir/depend
 

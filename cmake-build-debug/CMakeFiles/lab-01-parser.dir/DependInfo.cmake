@@ -8,12 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/demo/main.cpp.o"
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/print.cpp.o"
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/student.cpp.o"
-  "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp" "/home/anton/LinuxWork/СИШКА/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/tests/test.cpp.o"
+  "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/demo/main.cpp" "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/demo/main.cpp.o"
+  "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/print.cpp" "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/print.cpp.o"
+  "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/sources/student.cpp" "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/sources/student.cpp.o"
+  "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/tests/test.cpp" "/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01-parser.dir/tests/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "JFile1=\"/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/json_files/students.json\""
+  "JFile2=\"/home/anton/LinuxWork/C/CLion/clion-2020.2.4/lab-01-parser/json_files/students2.json\""
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
