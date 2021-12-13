@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.18)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -13,11 +13,11 @@ set(
   CACHE STRING "Default cache server"
 )
 
-include("tools/gate/cmake/HunterGate.cmake")
+include("cmake/HunterGate.cmake")
 
 HunterGate(
-  URL "https://github.com/cpp-pm/hunter/archive/v0.23.224.tar.gz"
-  SHA1 "18e57a43efc435f2e1dae1291e82e42afbf940be"
+  URL "https://github.com/cpp-pm/hunter/archive/v0.23.314.tar.gz"
+  SHA1 "95c47c92f68edb091b5d6d18924baabe02a6962a"
 )
 
 project(lab-01-parser)
