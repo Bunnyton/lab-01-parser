@@ -38,7 +38,6 @@ find_package(GTest CONFIG REQUIRED)
 
 hunter_add_package(nlohmann_json)
 find_package(nlohmann_json CONFIG REQUIRED)
-target_link_libraries(lab-01-parser nlohmann_json::nlohmann_json)
 
 
 add_executable(demo
@@ -98,3 +97,4 @@ install(EXPORT "${PROJECT_NAME}-targets"
   NAMESPACE "${PROJECT_NAME}::"
   DESTINATION "lib/cmake"
 )
+target_link_libraries(lab-01-parser nlohmann_json::nlohmann_json)
